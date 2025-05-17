@@ -2,7 +2,7 @@ name: Scheduled Scraper
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Menjalankan setiap hari jam 03:00 UTC
+    - cron: "*/10 * * * *"  # setiap 10 menit
   workflow_dispatch:    # Bisa juga dijalankan manual lewat GitHub Actions UI
 
 jobs:
