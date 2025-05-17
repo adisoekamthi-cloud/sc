@@ -1,3 +1,5 @@
-playwright
 nest_asyncio
 requests
+playwright
+playwright install
+
