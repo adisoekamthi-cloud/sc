@@ -1,5 +1,4 @@
-nest_asyncio
-requests
 playwright
-playwright install
-
+nest_asyncio
+beautifulsoup4
+requests
